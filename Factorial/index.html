@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- to find the factorial of a number using reduce and for loops -->
+    <script>
+        const fact = (n) => {
+            let factorial = 1;
+            for(let i = 1; i <= n; i++){
+                factorial = factorial * i;
+            }
+            return factorial;
+        }
+        let n = prompt("Enter a number");
+        let final = fact(n);
+        console.log(final)
+    </script>
+</body>
+</html>
